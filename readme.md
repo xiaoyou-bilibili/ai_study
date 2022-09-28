@@ -1,11 +1,14 @@
 # 深度学习笔记
 
-> 本项目主要记录了个人的一些练丹心得以及使用模型在各个领域的一些探索
+> 本项目主要记录了个人的一些练丹心得以及使用AI在各个领域的一些探索
 
 # 练丹心得
-- [linux环境安装](./server/linux_cuda.md)
-- [windows环境安装](./server/windows_cuda.md)
-- [租显卡进行训练](./server/cloud.md)
+- [linux环境安装](environment/linux_cuda.md)
+- [windows环境安装](environment/windows_cuda.md)
+- [conda安装和常用命令](tool/conda.md)
+- [jupyter-lab安装](tool/jupyter.md)
+- [docker显卡支持](environment/docker.md)
+- [租显卡进行训练](environment/cloud.md)
 - [使用Tmux进行后台训练](./command/tmux.md)
 
 
