@@ -22,6 +22,7 @@
 ## 图像分割&目标检测
 
 - [yolov5目标检测](https://github.com/xiaoyou-bilibili/yolov5_demo)
+- [实时目标检测](https://github.com/xiaoyou-bilibili/pi_camera_yolo)
 
 
 ## 生成对抗网络
