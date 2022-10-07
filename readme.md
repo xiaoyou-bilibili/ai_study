@@ -10,6 +10,7 @@
 - [docker显卡支持](environment/docker.md)
 - [租显卡进行训练](environment/cloud.md)
 - [使用Tmux进行后台训练](./command/tmux.md)
+- [自动生成项目依赖的requirements.txt](./environment/save.md)
 
 
 # AI项目实践
