@@ -25,6 +25,10 @@
 - [yolov5目标检测](https://github.com/xiaoyou-bilibili/yolov5_demo)
 - [实时目标检测](https://github.com/xiaoyou-bilibili/pi_camera_yolo)
 
+## 姿态估计
+- [根据视频自动生成MMD动作文件](https://github.com/xiaoyou-bilibili/openpose-mmd)
+- [二次元人物模仿视频人脸](https://github.com/xiaoyou-bilibili/openpose-wifu)
+
 
 ## 生成对抗网络
 
