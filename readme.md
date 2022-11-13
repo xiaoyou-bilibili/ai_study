@@ -16,7 +16,7 @@
 # AI项目实践
 
 ## 分类
-#### 卷积神经网络 CNN
+### 卷积神经网络 CNN
 - [CNN简单介绍](https://github.com/xiaoyou-bilibili/deep_cnn_Introduction)
 ### 人脸识别
 - [动漫人脸识别](https://github.com/xiaoyou-bilibili/anime_recognize)
