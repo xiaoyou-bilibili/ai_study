@@ -45,6 +45,8 @@
 - [游戏角色识别](https://github.com/xiaoyou-bilibili/voice_recognize)
 ### 语音合成
 - [语音合成项目](https://github.com/xiaoyou-bilibili/tts_vits)
+### 声音克隆
+- [把你的声音转换为原神角色声音](https://github.com/xiaoyou-bilibili/voice_clone)
 
 ## 强化学习
 ### DQN
