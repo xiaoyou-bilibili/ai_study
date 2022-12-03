@@ -1,4 +1,5 @@
 ## cuda安装
+
 windows显卡驱动这里就不多说，我们直接去安装cuda，历史版本的cuda可以到https://developer.nvidia.com/cuda-toolkit-archive里去找
 
 打开显卡的控制面板，可以看到最高支持的版本
@@ -15,11 +16,13 @@ windows显卡驱动这里就不多说，我们直接去安装cuda，历史版本
 ## pytorch安装
 
 我们可以使用conda来管理虚拟环境，conda安装这里不详细说明，我们可以使用下面的命令来安装pytorch
+
 ```shell
 pip3 install torch==1.8.2 torchvision==0.9.2 torchaudio===0.8.2 --extra-index-url https://download.pytorch.org/whl/lts/1.8/cu111
 ```
 
 然后使用下面的代码来进行测试
+
 ```python
 import torch
 flag = torch.cuda.is_available()
@@ -34,5 +37,3 @@ device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else 
 print("驱动为：",device)
 print("GPU型号： ",torch.cuda.get_device_name(0))
 ```
-
-

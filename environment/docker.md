@@ -1,6 +1,9 @@
 > 这里以Ubuntu 22.04 来举例
+
 ## docker安装
+
 教程地址：https://docs.docker.com/engine/install/ubuntu/
+
 ```shell
 # 删除旧版本
 sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -27,9 +30,10 @@ sudo service docker start
 sudo systemctl enable docker.service
 ```
 
-
 ## nvidia支持
+
 官方文件地址: https://github.com/NVIDIA/nvidia-docker
+
 ```shell
 ##首先要确保已经安装了nvidia driver
 # 2. 添加源
@@ -52,6 +56,7 @@ sudo docker run -itd --gpus all nvidia/cuda:11.0.3-base-ubuntu20.04
 ```
 
 一些常用库的开源镜像地址
+
 ```shell
 # pytorch
 docker pull pytorch/pytorch:1.9.1-cuda11.1-cudnn8-runtime

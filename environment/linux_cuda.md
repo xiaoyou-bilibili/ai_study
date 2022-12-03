@@ -1,10 +1,12 @@
 > 这里主要主要是以Ubuntu 22.04 来举例
+
 ## 驱动安装
 
 直接到软件和更新到附加驱动里面安装一个即可
 ![](./images/4dbb66f7.png)
 
 ## cuda安装
+
 我的显卡是3060，使用下面这个版本的cuda和cudnn
 
 cuda下载地址：[点击下载](https://developer.nvidia.com/cuda-toolkit-archive)
@@ -16,9 +18,11 @@ cudnn 下载地址: [点击下载](https://developer.nvidia.com/rdp/cudnn-archiv
 
 ![](./images/7361e7b2.png)
 运行下面的命令
+
 ```shell
 sudo bash cuda_11.2.0_460.27.04_linux.run
 ```
+
 驱动就不需要安装了，然后我们安装
 
 ![](./images/4e879bcd.png)
@@ -38,6 +42,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_DIR/extras/CUPTI/lib64.$CUDA_DIR/l
 ```
 
 然后我们还需要解压一下cudnn
+
 ```shell
 tar -zxf cudnn-11.2-linux-x64-v8.1.0.77.tgz
 # 把里面所有的文件拷贝到/usr/local/cuda-11.2 里去
@@ -55,4 +60,3 @@ sudo cp lib64/* /usr/local/cuda-11.2/lib64
 
 输入 `nvidia-smi -L` 查看显卡型号
 ![](./images/0a7ccbc8.png)
-
